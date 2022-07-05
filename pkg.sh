@@ -1,0 +1,15 @@
+pkg . -t node16-macos-x64 --out-path pkg
+pkg bin/s-clean -t node16-macos-x64 --out-path pkg
+pkg bin/s-cli -t node16-macos-x64 --out-path pkg
+pkg bin/s-component -t node16-macos-x64 --out-path pkg
+pkg bin/s-config -t node16-macos-x64 --out-path pkg
+pkg bin/s-config-add -t node16-macos-x64 --out-path pkg
+pkg bin/s-config-delete -t node16-macos-x64 --out-path pkg
+pkg bin/s-config-get -t node16-macos-x64 --out-path pkg
+pkg bin/s-edit -t node16-macos-x64 --out-path pkg
+pkg bin/s-init -t node16-macos-x64 --out-path pkg
+pkg bin/s-set -t node16-macos-x64 --out-path pkg
+pkg bin/s-set-analysis -t node16-macos-x64 --out-path pkg
+pkg bin/s-set-registry -t node16-macos-x64 --out-path pkg
+pkg bin/s-set-workspace -t node16-macos-x64 --out-path pkg
+pkg bin/s-verify -t node16-macos-x64 --out-path pkg

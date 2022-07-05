@@ -46,6 +46,12 @@
   "bin": {
     "s": "bin/s"
   },
+  "pkg": {
+    "scripts": [
+      "./bin/**/*.js",
+      "./lib/**/*.js"
+    ]
+  },
   "devDependencies": {
     "@serverless-devs/commander": "^6.0.0",
     "@types/jest": "^27.4.0",

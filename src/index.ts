@@ -14,6 +14,7 @@ const { join, includes } = lodash;
 
 (async () => {
   process.env['CLI_VERSION'] = pkg.version;
+  process.env['default_serverless_devs_registry_mode'] = 'local';
   registerCommandChecker(program);
   const system_command = program
     .helpOption('-h, --help', `Display help for command.`)
